@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
 **/
-
+import * as AWS from 'aws-sdk'
 // Load the SDK and UUID
-var AWS = require('aws-sdk');
-var uuid = require('node-uuid');
+
+var uuid = require('uuid');
 
 // Create an S3 client
 var s3 = new AWS.S3();
