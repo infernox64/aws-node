@@ -1,9 +1,8 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-const eslint_config_standard_1 = __importDefault(require("./eslint-config-standard"));
-const equivalents = [
+{
+{
+    "extends": "","
+}
+ "equivalents" = [
     'comma-spacing',
     'dot-notation',
     'brace-style',
@@ -138,6 +137,6 @@ const config = {
             }
         }
     ]
-};
-module.exports = config;
+}
+
 //# sourceMappingURL=index.js.map
